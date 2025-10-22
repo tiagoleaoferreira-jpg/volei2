@@ -33,7 +33,7 @@ nav{
     display: flex; /* Permite organizar os elementos HTML*/
     justify-content: space-between;
     background-color:#FFE600;
-    padding: 10px 20px;
+    padding: 5px 10px;
 }
 .logo{
     font-size: 1.8rem;
