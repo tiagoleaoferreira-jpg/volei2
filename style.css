@@ -4,12 +4,12 @@ color: rgb(255, 255, 255);
 
 }
 
-.destak{background-color: rgb(35, 123, 224);
+.destak{background-color: rgb(1, 6, 10);
 
     color: rgb(255, 255, 255);
 }
 .oi{background-color: black;
-    color: rgb(255, 238, 0);}
+    color: rgb(58, 55, 14);}
 
 /* Importando do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
@@ -32,7 +32,7 @@ color: rgb(255, 255, 255);
 nav{
     display: flex; /* Permite organizar os elementos HTML*/
     justify-content: space-between;
-    background-color:#FFE600;
+    background-color:#b700ff;
     padding: 5px 10px;
 }
 .logo{
