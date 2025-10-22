@@ -51,3 +51,63 @@ a{
 body{
     font-family: 'Poppins', sans-serif;
 }
+.barbearia-footer {
+    /* Fundo Carvão (Quase Preto, mas com um toque de cor) */
+    background-color: #1f1f1f; 
+    color: #dedede; /* Texto quase branco */
+    padding: 60px 25px 30px;
+    font-family: 'Georgia', serif; /* Fonte clássica/rústica */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.footer-col {
+    margin-bottom: 30px;
+    min-width: 200px;
+}
+
+/* Estilo dos Títulos das Colunas */
+.barbearia-footer h4 {
+    font-size: 1.25em;
+    margin-bottom: 15px;
+    /* Destaque em Bronze Sutil (Mais elegante que o vermelho forte) */
+    border-bottom: 2px solid #a87d32; 
+    padding-bottom: 5px;
+    color: #fff;
+    letter-spacing: 1px; /* Espaçamento entre letras para toque premium */
+}
+
+/* Links e textos */
+.footer-links a, .footer-contact p, .footer-social a {
+    color: #b0b0b0; /* Texto em cinza suave */
+    text-decoration: none;
+    line-height: 1.8;
+    transition: color 0.3s;
+}
+
+/* Efeito hover: Usa o bronze/dourado de destaque */
+.barbearia-footer a:hover {
+    color: #d4a749; 
+}
+
+/* Estilo do Copyright */
+.footer-info p:last-child {
+    font-size: 0.85em;
+    margin-top: 20px;
+    color: #777;
+}
+
+/* Manutenção da Responsividade */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
