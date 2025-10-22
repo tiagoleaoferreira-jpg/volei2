@@ -32,12 +32,12 @@ color: rgb(255, 255, 255);
 nav{
     display: flex; /* Permite organizar os elementos HTML*/
     justify-content: space-between;
-    background-color:#b700ff;
+    background-color:#000000;
     padding: 5px 10px;
 }
 .logo{
     font-size: 1.8rem;
-    color: #0046BE;
+    color: #e100ff;
     font-weight: bold;
     
 }
