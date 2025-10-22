@@ -26,8 +26,8 @@ color: rgb(255, 255, 255);
     list-style: none;   /* remove os dots */
     color:black;
     .background-color: blue;
-    margin-bottom: 20px;
-    padding-bottom: 10%;
+    margin-bottom: 10px;
+    padding-bottom: 5%;
 }
 nav{
     display: flex; /* Permite organizar os elementos HTML*/
@@ -42,7 +42,7 @@ nav{
     
 }
 li{
-    padding: 12px 10px 5px 50px; /* dá um respiro dentro dos links */
+    padding: 6px 5px 5px 25px; /* dá um respiro dentro dos links */
 }
 a{ 
     text-decoration: none; /* remove o sublinhado */
