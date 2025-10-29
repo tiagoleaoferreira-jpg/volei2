@@ -51,6 +51,19 @@ a{
 body{
     font-family: 'Poppins', sans-serif;
 }
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))
+  , url('PORTADA-ORIGENES-SILLONES-DE-BARBERO.webp') no-repeat center center/cover;
+  text-align: center;
+  padding: 6rem 2rem;
+  color: #fff;
+}
+.btn-primary {
+    background-color: yellow !important; /* Vermelho Escuro da Marca */
+    border-color: #990000 !important; 
+    color: #1f1f1f;
+}
+
 .barbearia-footer {
     /* Fundo Carvão (Quase Preto, mas com um toque de cor) */
     background-color: #1f1f1f; 
