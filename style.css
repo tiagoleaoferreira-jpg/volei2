@@ -1,16 +1,3 @@
-.bemvindo, .titulo, .mais{background-color: rgb(48, 34, 63);
-color: rgb(255, 255, 255);
-
-
-}
-
-.destak{background-color: rgb(1, 6, 10);
-
-    color: rgb(255, 255, 255);
-}
-.oi{background-color: black;
-    color: rgb(58, 55, 14);}
-
 /* Importando do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
@@ -19,108 +6,153 @@ color: rgb(255, 255, 255);
   padding: 0;
   box-sizing: border-box;
 }
-.menu{
-    display: flex;
-    justify-content: center ;
-    flex-direction: row;
-    list-style: none;   /* remove os dots */
-    color:black;
-    .background-color: blue;
-    margin-bottom: 10px;
-    padding-bottom: 5%;
+
+.bemvindo, .titulo, .mais {
+  background-color: rgb(48, 34, 63);
+  color: rgb(255, 255, 255);
 }
-nav{
-    display: flex; /* Permite organizar os elementos HTML*/
-    justify-content: space-between;
-    background-color:#000000;
-    padding: 5px 10px;
+
+.destak {
+  background-color: rgb(1, 6, 10);
+  color: rgb(255, 255, 255);
 }
-.logo{
-    font-size: 1.8rem;
-    color: #e100ff;
-    font-weight: bold;
-    
+
+.oi {
+  background-color: black;
+  color: rgb(58, 55, 14);
 }
-li{
-    padding: 6px 5px 5px 25px; /* dá um respiro dentro dos links */
+
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  list-style: none;   /* remove os dots */
+  color: black;
+  background-color: blue;
+  margin-bottom: 10px;
+  padding-bottom: 5%;
 }
-a{ 
-    text-decoration: none; /* remove o sublinhado */
-    color: black;
+
+.menu a {
+  color: white;  /* Melhor contraste com fundo azul */
+  text-decoration: none;
+  padding: 6px 15px;
 }
-body{
-    font-family: 'Poppins', sans-serif;
+
+.menu a:hover, .menu a:focus {
+  color: #d4a749; /* Bronze/dourado para hover/focus */
+  outline: none;
 }
+
+nav {
+  display: flex; /* Permite organizar os elementos HTML*/
+  justify-content: space-between;
+  background-color: #000000;
+  padding: 5px 10px;
+}
+
+.logo {
+  font-size: 1.8rem;
+  color: #e100ff;
+  font-weight: bold;
+}
+
+li {
+  padding: 6px 5px 5px 25px; /* dá um respiro dentro dos links */
+}
+
+a { 
+  text-decoration: none; /* remove o sublinhado */
+  color: black;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 .hero {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))
-  , url('PORTADA-ORIGENES-SILLONES-DE-BARBERO.webp') no-repeat center center/cover;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+              url('') no-repeat center center/cover; /* Adicione URL aqui */
   text-align: center;
   padding: 6rem 2rem;
   color: #fff;
 }
+
 .btn-primary {
-    background-color: yellow !important; /* Vermelho Escuro da Marca */
-    border-color: #990000 !important; 
-    color: #1f1f1f;
+  background-color: yellow !important;
+  border-color: #990000 !important;
+  color: #1f1f1f;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #d4a749 !important;
+  color: #000000;
+  outline: none;
 }
 
 .barbearia-footer {
-    /* Fundo Carvão (Quase Preto, mas com um toque de cor) */
-    background-color: #1f1f1f; 
-    color: #dedede; /* Texto quase branco */
-    padding: 60px 25px 30px;
-    font-family: 'Georgia', serif; /* Fonte clássica/rústica */
+  background-color: #1f1f1f; 
+  color: #dedede;
+  padding: 60px 25px 30px;
+  font-family: 'Georgia', serif;
 }
 
 .footer-container {
-    display: flex;
-    justify-content: space-around; 
-    flex-wrap: wrap; 
-    max-width: 1100px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-around; 
+  flex-wrap: wrap; 
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .footer-col {
-    margin-bottom: 30px;
-    min-width: 200px;
+  margin-bottom: 30px;
+  min-width: 200px;
 }
 
-/* Estilo dos Títulos das Colunas */
 .barbearia-footer h4 {
-    font-size: 1.25em;
-    margin-bottom: 15px;
-    /* Destaque em Bronze Sutil (Mais elegante que o vermelho forte) */
-    border-bottom: 2px solid #a87d32; 
-    padding-bottom: 5px;
-    color: #fff;
-    letter-spacing: 1px; /* Espaçamento entre letras para toque premium */
+  font-size: 1.25em;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #a87d32; 
+  padding-bottom: 5px;
+  color: #fff;
+  letter-spacing: 1px;
 }
 
-/* Links e textos */
 .footer-links a, .footer-contact p, .footer-social a {
-    color: #b0b0b0; /* Texto em cinza suave */
-    text-decoration: none;
-    line-height: 1.8;
-    transition: color 0.3s;
+  color: #b0b0b0;
+  text-decoration: none;
+  line-height: 1.8;
+  transition: color 0.3s;
 }
 
-/* Efeito hover: Usa o bronze/dourado de destaque */
 .barbearia-footer a:hover {
-    color: #d4a749; 
+  color: #d4a749;
 }
 
-/* Estilo do Copyright */
 .footer-info p:last-child {
-    font-size: 0.85em;
-    margin-top: 20px;
-    color: #777;
+  font-size: 0.85em;
+  margin-top: 20px;
+  color: #777;
 }
 
-/* Manutenção da Responsividade */
 @media (max-width: 768px) {
-    .footer-container {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .menu {
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+
+  li {
+    padding-left: 0;
+  }
 }
